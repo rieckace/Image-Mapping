@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(144, 148, 151);
+}
+h1{
+    display: flex;
+    color: rgb(25, 22, 22);
+    background-color: rgb(220, 161, 97);
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+body div img{
+    height: 100%;
+    width: 100%;
+}

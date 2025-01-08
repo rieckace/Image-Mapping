@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Mapping</title>
+    <link rel="stylesheet" href="scientist.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-DjSmfjW21zMkM/CR4lgaSWEcIU5o+2cGFF7az9eCbYFlsJk3LMcptcfHB3fn9IKT"
+      crossorigin="anonymous"
+      
+    />
+  </head>
+  <body>
+    <div>
+    <center><h1>The Greatest Scientists of All Time in the World</h1></center>
+  </div>
+    <div class="container">   
+  
+<img src="scientist.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_parent" alt="Albert Einstein" title="Albert Einstein" href="https://en.wikipedia.org/wiki/Albert_Einstein" coords="199,320,210" shape="circle">
+    <area target="_blank" alt="Nikola Tesla" title="Nikola Tesla" href="https://en.wikipedia.org/wiki/Nikola_Tesla" coords="630,261,203" shape="circle">
+    <area target="_blank" alt="Stephen Hawking" title="Stephen Hawking" href="https://en.wikipedia.org/wiki/Stephen_Hawking" coords="1018,243,180" shape="circle">
+</map>
+    </div>
+  </body>
+</html>
